@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop.iml" filepath="$PROJECT_DIR$/yshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-api/yshop-api.iml" filepath="$PROJECT_DIR$/yshop-api/yshop-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" filepath="$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-parent/yshop-parent.iml" filepath="$PROJECT_DIR$/yshop-parent/yshop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" filepath="$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-user/yshop-user.iml" filepath="$PROJECT_DIR$/yshop-user/yshop-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-web-util/yshop-web-util.iml" filepath="$PROJECT_DIR$/yshop-web-util/yshop-web-util.iml" />
+    </modules>
+  </component>
+</project>
