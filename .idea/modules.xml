@@ -8,7 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" filepath="$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-parent/yshop-parent.iml" filepath="$PROJECT_DIR$/yshop-parent/yshop-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" filepath="$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yshop-user/yshop-user.iml" filepath="$PROJECT_DIR$/yshop-user/yshop-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-user-service/yshop-user-service.iml" filepath="$PROJECT_DIR$/yshop-user-service/yshop-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-user-web/yshop-user-web.iml" filepath="$PROJECT_DIR$/yshop-user-web/yshop-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-web-util/yshop-web-util.iml" filepath="$PROJECT_DIR$/yshop-web-util/yshop-web-util.iml" />
     </modules>
   </component>

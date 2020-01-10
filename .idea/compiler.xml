@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="yshop-common-util" />
+        <module name="yshop-user-web" />
         <module name="yshop-api" />
-        <module name="yshop-user" />
         <module name="yshop-service-util" />
+        <module name="yshop-user-service" />
         <module name="yshop-web-util" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,8 @@
       <module name="yshop-parent" target="1.8" />
       <module name="yshop-service-util" target="1.8" />
       <module name="yshop-user" target="1.8" />
+      <module name="yshop-user-service" target="1.8" />
+      <module name="yshop-user-web" target="1.8" />
       <module name="yshop-web-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,6 +33,8 @@
       <module name="yshop-common-util" options="-parameters" />
       <module name="yshop-service-util" options="-parameters" />
       <module name="yshop-user" options="-parameters" />
+      <module name="yshop-user-service" options="-parameters" />
+      <module name="yshop-user-web" options="-parameters" />
       <module name="yshop-web-util" options="-parameters" />
     </option>
   </component>

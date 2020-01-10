@@ -29,6 +29,32 @@
             <version>${fastjson.version}</version>
         </dependency>
 
+<!--        dubbo maven-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${alibaba.dubbo.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+            <version>${zkclient.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.gitee.reger</groupId>
+            <artifactId>spring-boot-starter-dubbo</artifactId>
+            <version>${spring-boot-version}</version>
+        </dependency>
+
+
 
 
     </dependencies>
