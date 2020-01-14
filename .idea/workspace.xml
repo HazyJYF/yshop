@@ -2,53 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7f58fd-c569-46a1-9d65-df92c92171b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_registry_nacos_2_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_gitee_reger_spring_boot_starter_dubbo_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/demobean/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/controller/UmsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/AttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/CatalogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog1Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog2Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog3Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/CatalogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/AttrController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/CatalogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/UmsMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/UmsMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yshop-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/UserApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/mapper/UmsMemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/mapper/UmsMemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/service/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/service/UmsMemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/src/test/java/com/yshop/user/UserApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-user/src/test/java/com/yshop/user/service/UmsMemberServiceImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yshop-web-util/yshop-web-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-web-util/yshop-web-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yshop-user-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/yshop-user-web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/yshop-api/target/" />
@@ -61,6 +37,8 @@
     <ignored path="$PROJECT_DIR$/yshop-user/target/" />
     <ignored path="$PROJECT_DIR$/yshop-user-service/target/" />
     <ignored path="$PROJECT_DIR$/yshop-user-web/target/" />
+    <ignored path="$PROJECT_DIR$/yshop-manage-service/target/" />
+    <ignored path="$PROJECT_DIR$/yshop-manage-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,95 +51,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/service/UmsMemberServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/CatalogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="142">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/controller/UmsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/YshopUserServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/mapper/UmsMemberMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/YshopUserWebApplication.java">
+        <entry file="file://$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/AttrController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-user-web/src/test/java/com/yshop/user/YshopUserWebApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="370">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,10 +77,101 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yshop-parent/pom.xml">
+        <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/AttrService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="304">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/AttrServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrValueMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/CatalogService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/CatalogServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,8 +181,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -195,11 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shop-web-util/pom.xml" />
-        <option value="$PROJECT_DIR$/yshop-api/pom.xml" />
-        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/UmsMemberService.java" />
-        <option value="$PROJECT_DIR$/yshop-web-util/pom.xml" />
-        <option value="$PROJECT_DIR$/yshop-user/pom.xml" />
         <option value="$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/mapper/UmsMemberMapper.java" />
         <option value="$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/service/UmsServiceImpl.java" />
         <option value="$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/service/UmsMemberServiceImpl.java" />
@@ -209,7 +202,6 @@
         <option value="$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/UserApplication.java" />
         <option value="$PROJECT_DIR$/yshop-user/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/example/demo/demobean/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/yshop-common-util/pom.xml" />
         <option value="$PROJECT_DIR$/yshop-service-util/src/main/java/mapper/UmsMemberMapper.java" />
         <option value="$PROJECT_DIR$/yshop-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/yshop-user-web/pom.xml" />
@@ -222,6 +214,36 @@
         <option value="$PROJECT_DIR$/yshop-user-web/src/test/java/com/yshop/user/YshopUserWebApplicationTests.java" />
         <option value="$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/controller/UmsController.java" />
         <option value="$PROJECT_DIR$/yshop-user-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yshop-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/test/java/com/yshop/manage/YshopManageServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/yshop-manage-web/src/test/java/com/yshop/manage/YshopManageWebApplicationTests.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog1.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog2.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog3.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/YshopManageServiceApplication.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog1Mapper.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog2Mapper.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog3Mapper.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/PmsBaseCatalog1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/PmsBaseCatalog2ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/PmsBaseCatalog3ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrInfo.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrValue.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/PmsBaseCatalog1Service.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/PmsBaseCatalog2Service.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/PmsBaseCatalog3Service.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/CatalogService.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrInfoMapper.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrValueMapper.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/CatalogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/CatalogController.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/AttrController.java" />
+        <option value="$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/AttrService.java" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/AttrServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -243,25 +265,31 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yshop-user-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="yshop-common-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yshop-user-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="yshop-common-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yshop-user-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="yshop-common-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.yshop:yshop-web-util:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.alibaba:dubbo:2.6.7" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="yshop-user-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="yshop-common-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.yshop:yshop-web-util:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="com.yshop:yshop-common-util:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.101tec:zkclient:0.10" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yshop-common-util" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.101tec:zkclient:0.10" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.zookeeper:zookeeper:3.4.8" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -278,11 +306,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -294,30 +321,25 @@
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -325,36 +347,141 @@
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -362,52 +489,75 @@
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="yshop" type="462c0819:PsiDirectoryNode" />
-              <item name="yshop-user-web" type="462c0819:PsiDirectoryNode" />
+              <item name="yshop-manage-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -416,6 +566,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,11 +582,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.yshop.user.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yshop.manage.mapper" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -457,7 +611,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.YshopUserWebApplication">
+  <component name="RunManager" selected="Spring Boot.YshopManageServiceApplication">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.demobean.HelloWorld" />
       <module name="demo" />
@@ -501,6 +655,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YshopManageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yshop-manage-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yshop.manage.YshopManageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YshopManageWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yshop-manage-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yshop.manage.YshopManageWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YshopUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="yshop-user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yshop.user.YshopUserServiceApplication" />
@@ -533,7 +701,10 @@
       <option name="presentableId" value="Default" />
       <updated>1578454680329</updated>
       <workItem from="1578454685531" duration="10976000" />
-      <workItem from="1578625210777" duration="3402000" />
+      <workItem from="1578625210777" duration="7111000" />
+      <workItem from="1578643811068" duration="1760000" />
+      <workItem from="1578746792119" duration="1882000" />
+      <workItem from="1578967061723" duration="10771000" />
     </task>
     <task id="LOCAL-00001" summary="项目第一次提交!!!">
       <created>1578549108334</created>
@@ -542,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578549108334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dubbo的分布式改造-20200110">
+      <created>1578637171273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578637171273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -560,12 +738,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14378000" />
+    <option name="totallyTimeSpent" value="32500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -575,7 +754,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36752138" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25925925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,7 +773,7 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Key Promoter X" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
@@ -607,38 +786,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目第一次提交!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目第一次提交!!!" />
+    <MESSAGE value="dubbo的分布式改造-20200110" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbo的分布式改造-20200110" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop-web-util/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/yshop-web-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/yshop-service-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/service/UmsMemberServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/yshop-user/src/test/java/com/yshop/user/UserApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/mapper/UmsMemberMapper.java" />
-    <entry file="file://$PROJECT_DIR$/yshop-user/src/main/java/com/yshop/user/UserApplication.java" />
-    <entry file="file://$PROJECT_DIR$/yshop-user/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/yshop-user/src/test/java/com/yshop/user/service/UmsMemberServiceImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/demobean/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -653,42 +804,8 @@
     <entry file="file://$PROJECT_DIR$/yshop-service-util/src/main/java/service/UmsMemberServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/yshop-service-util/src/main/java/mapper/UmsMemberMapper.java" />
     <entry file="file://$PROJECT_DIR$/yshop-user/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/UmsMemberService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-common-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" selection-start-line="56" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/UmsMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yshop-user-service/src/test/java/com/yshop/user/YshopUserServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,6 +831,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/service/UmsMemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-user-service/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-common-util/pom.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/controller/UmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/YshopUserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/mapper/UmsMemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-user-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/test/java/com/yshop/manage/YshopManageServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/YshopUserWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yshop-user-web/src/test/java/com/yshop/user/YshopUserWebApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -724,72 +939,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/mapper/UmsMemberMapper.java">
+    <entry file="file://$PROJECT_DIR$/yshop-manage-web/src/test/java/com/yshop/manage/YshopManageWebApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/YshopUserServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/UmsMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/UmsMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog1Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog2Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseCatalog3Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/controller/UmsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="304">
+          <caret line="16" column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user-service/src/main/java/com/yshop/user/service/UmsMemberServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="186">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/YshopManageWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/YshopManageServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yshop-user-web/src/main/java/com/yshop/user/YshopUserWebApplication.java">
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseCatalog1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="437">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/bean/PmsBaseAttrInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/PmsBaseCatalog1Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/PmsBaseCatalog2Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/PmsBaseCatalog3Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/CatalogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/PmsBaseCatalog1ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/PmsBaseCatalog2ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/PmsBaseCatalog3ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrValueMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/CatalogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/CatalogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-api/src/main/java/com/yshop/service/AttrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/mapper/PmsBaseAttrInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-service/src/main/java/com/yshop/manage/service/impl/AttrServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yshop-manage-web/src/main/java/com/yshop/manage/controller/AttrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

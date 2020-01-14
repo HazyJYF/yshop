@@ -3,9 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yshop-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yshop-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yshop-manage-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yshop-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yshop-service-util" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yshop-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yshop-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yshop-user-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yshop-web-util" charset="UTF-8" />

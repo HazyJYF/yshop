@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/yshop-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/yshop-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/yshop-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/yshop-manage-web/pom.xml" />
       </list>
     </option>
   </component>

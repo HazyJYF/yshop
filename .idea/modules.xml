@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/yshop.iml" filepath="$PROJECT_DIR$/yshop.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-api/yshop-api.iml" filepath="$PROJECT_DIR$/yshop-api/yshop-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" filepath="$PROJECT_DIR$/yshop-common-util/yshop-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-manage-service/yshop-manage-service.iml" filepath="$PROJECT_DIR$/yshop-manage-service/yshop-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yshop-manage-web/yshop-manage-web.iml" filepath="$PROJECT_DIR$/yshop-manage-web/yshop-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-parent/yshop-parent.iml" filepath="$PROJECT_DIR$/yshop-parent/yshop-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" filepath="$PROJECT_DIR$/yshop-service-util/yshop-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/yshop-user-service/yshop-user-service.iml" filepath="$PROJECT_DIR$/yshop-user-service/yshop-user-service.iml" />

@@ -8,17 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="yshop-common-util" />
-        <module name="yshop-user-web" />
-        <module name="yshop-api" />
         <module name="yshop-service-util" />
-        <module name="yshop-user-service" />
         <module name="yshop-web-util" />
+        <module name="yshop-manage-web" />
+        <module name="yshop-manage-service" />
+        <module name="yshop-user-web" />
+        <module name="yshop-user-service" />
+        <module name="yshop-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="yshop-api" target="1.5" />
       <module name="yshop-common-util" target="1.8" />
+      <module name="yshop-manage-service" target="1.8" />
+      <module name="yshop-manage-web" target="1.8" />
       <module name="yshop-parent" target="1.8" />
       <module name="yshop-service-util" target="1.8" />
       <module name="yshop-user" target="1.8" />
@@ -31,6 +35,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="yshop-common-util" options="-parameters" />
+      <module name="yshop-manage-service" options="-parameters" />
+      <module name="yshop-manage-web" options="-parameters" />
       <module name="yshop-service-util" options="-parameters" />
       <module name="yshop-user" options="-parameters" />
       <module name="yshop-user-service" options="-parameters" />
